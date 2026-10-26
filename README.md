@@ -127,3 +127,7 @@ Scene placement and palette live near the top of `halloween26_screensaver.py`:
 - `WIND_SPEED`, `BAT_SPEED`, `SPIDER_*_SPEED`
 - `DETAIL_PRESETS` - per-preset layer counts
 - `FACE_TEMPLATES` - the carved pumpkin faces
+
+## License
+
+[MIT](LICENSE). Copyright (c) 2026 CustomDeedsAustralia.
