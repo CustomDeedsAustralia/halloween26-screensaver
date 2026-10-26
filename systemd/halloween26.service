@@ -1,0 +1,13 @@
+[Unit]
+Description=Waveshare 11.9 Halloween 2026 screensaver
+After=graphical.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/pi/Waveshare-11.9-Screensavers/halloween26
+ExecStart=/home/pi/Waveshare-11.9-Screensavers/halloween26/.venv/bin/python3 /home/pi/Waveshare-11.9-Screensavers/halloween26/halloween26_screensaver.py --fullscreen
+# Slower Pi models: append --fps 30 --detail low --render-scale 0.5 to ExecStart.
+Restart=on-failure
+
+[Install]
+WantedBy=graphical.target
